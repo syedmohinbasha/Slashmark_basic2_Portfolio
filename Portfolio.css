@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-size:20px;
+}
+
+.container {
+  max-width:1450px;
+  margin: 0 auto;
+  padding: 0px;
+}
+.img-container {
+  float:left;
+  width: 33.33%;
+  padding: 5px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  padding: 1em 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 0;
+  
+}
+
+section {
+  padding: 40px 0;
+  
+}
+
+h2 {
+  color: white;
+}
+
+.project, .job {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display:flex;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.moving-message {
+      font-size: 18px;
+      color: #ff0000; /* Adjust the color as needed */
+      white-space: nowrap;
+	  background-color: red;
+    }
+ marquee {
+      width: 100%; /* Set the width to 100% for full-width scrolling*/ 
+
+
+    @keyframes moveMessage {
+      0% { left: 100%; }
+      100% { left: -100%; }
+    }	
+table {
+
+			text-align: center;
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+			
+        }
+
+th,td {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+
+th {
+            background-color: #f2f2f2;
+        }
+		
+span {
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  font-family: algerian, courier;
+  line-height: 80%;
+}
